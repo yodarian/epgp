@@ -38,7 +38,7 @@ class LootTableSeeder extends Seeder
             ['id' => 21, 'item_lvl' => '220', 'slot' => 'Implant', 'name' => 'Unassembled Exarch MK-X Implant', 'gear_points' => 50, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 22, 'item_lvl' => '220', 'slot' => 'Ear', 'name' => 'Unassembled Exarch MK-X Earpiece', 'gear_points' => 50, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 23, 'item_lvl' => '220', 'slot' => 'Mainhand', 'name' => 'Unassembled Exarch MK-X Mainhand Weapon', 'gear_points' => 100, 'created_at' => new DateTime, 'updated_at' => new DateTime],
-            ['id' => 24, 'item_lvl' => '224', 'slot' => 'Relic', 'name' => 'Unassembled Exarch Relic', 'gear_points' => 50, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 24, 'item_lvl' => '220', 'slot' => 'Relic', 'name' => 'Unassembled Exarch Relic', 'gear_points' => 50, 'created_at' => new DateTime, 'updated_at' => new DateTime],
         );
 
         // Uncomment the below to run the seeder
