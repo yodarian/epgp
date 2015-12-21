@@ -15,9 +15,6 @@ class CreateMemberAndEventTables extends Migration
         Schema::create('members', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->integer('ep');
-            $table->integer('gp');
-            $table->float('priority');
             $table->timestamps();
         });
 
