@@ -35,12 +35,12 @@ class Loot extends Model
      */
     public static function getLootListForSelect()
     {
-        $loots = Loot::all(array('id', 'item_lvl', 'slot'))->toArray();
+        $loots = Loot::all(array('id', 'item_lvl', 'slot', 'name'))->toArray();
 
         $selectLoots = array(0 => 'Please Select');
 
         foreach ($loots as $loot) {
-            $selectLoots[$loot['id']] = $loot['item_lvl'] . ' ' . $loot['slot'];
+            $selectLoots[$loot['id']] = $loot['name'] . ' (' . $loot['item_lvl'] . ' ' . $loot['slot'] . ')';
         }
 
         return $selectLoots;
