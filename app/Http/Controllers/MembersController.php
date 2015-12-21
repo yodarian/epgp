@@ -85,7 +85,7 @@ class MembersController extends Controller
         $input = $request->all();
 
         if (isset($input['loot']) && $input['loot'] != '0') {
-            $member->loot()->attach($input['loot']);
+            $member->loot()->attach($input['loot'], ['awarded_at' => $input['awarded_at']]);
             unset($input['loot']);
         }
 

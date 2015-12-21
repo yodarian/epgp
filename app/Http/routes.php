@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::model('members', 'App\Member');
 Route::model('events', 'App\Event');
+Route::model('loot', 'App\Loot');
 
 // Use slugs rather than IDs in URLs
 //Route::bind('members', function($value, $route) {
@@ -30,6 +31,7 @@ Route::model('events', 'App\Event');
 
 Route::resource('members', 'MembersController');
 Route::resource('events', 'EventsController');
+Route::resource('loot', 'LootController');
 
 Route::controllers([
     'auth'  => 'Auth\AuthController',

@@ -18,15 +18,19 @@
         <h1>Loot</h1>
         <table>
             <tr>
+                <th>Name</th>
                 <th>Item Level</th>
                 <th>Slot</th>
                 <th>Gear Points</th>
+                <th>Awarded At</th>
             </tr>
             @foreach ($member->loot as $loot)
                 <tr>
+                    <td>{{ $loot->name }}</td>
                     <td>{{ $loot->item_lvl }}</td>
                     <td>{{ $loot->slot }}</td>
                     <td>{{ $loot->gear_points }}</td>
+                    <td>{{ $loot->pivot->awarded_at }}</td>
                 </tr>
             @endforeach
         </table>

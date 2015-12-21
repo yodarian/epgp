@@ -23,7 +23,7 @@ class Member extends Model
 
     public function loot()
     {
-        return $this->belongsToMany('App\Loot')->withTimestamps();
+        return $this->belongsToMany('App\Loot')->withTimestamps()->withPivot('awarded_at');
     }
 
     public static function getMembersForMultiselect()

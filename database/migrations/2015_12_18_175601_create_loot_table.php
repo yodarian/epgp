@@ -16,6 +16,7 @@ class CreateLootTable extends Migration
             $table->increments('id');
             $table->integer('item_lvl');
             $table->string('slot');
+            $table->string('name');
             $table->integer('gear_points');
             $table->timestamps();
         });

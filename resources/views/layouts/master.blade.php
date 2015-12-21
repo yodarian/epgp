@@ -12,6 +12,9 @@
     <div>
         <a href="{{ route('members.index') }}">Member</a>
     </div>
+    <div>
+        <a href="{{ route('loot.index') }}">Loot</a>
+    </div>
 @show
 
 <div class="container">
