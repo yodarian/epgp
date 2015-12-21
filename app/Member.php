@@ -28,7 +28,6 @@ class Member extends Model
 
     public static function getMembersForMultiselect()
     {
-        //Member::list('id','name');
         $members = Member::all(array('id', 'name'))->toArray();
 
         $multiselectMembers = array();
@@ -57,7 +56,7 @@ class Member extends Model
         $ep = $this->getEp();
         $gp = $this->getGearPoints();
 
-        return $ep / $gp;
+        return round($ep / $gp, 2);
     }
 
     public function setPriorityAttribute($priority)
