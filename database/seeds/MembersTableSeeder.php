@@ -31,6 +31,7 @@ class MembersTableSeeder extends Seeder
             ['id' => 14, 'name' => "Sano", 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 15, 'name' => "Smyles", 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 16, 'name' => "Ryan", 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 17, 'name' => "Makeronie", 'created_at' => new DateTime, 'updated_at' => new DateTime],
         );
 
         // Uncomment the below to run the seeder
