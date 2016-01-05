@@ -19,10 +19,10 @@ class MembersController extends Controller
     public function index()
     {
         $members = Member::all();
-//        $members = Member::orderBy('id', 'DESC')->get();
-//        $members = $this->getMembersSortedByPriority();
+
         foreach ($members as &$member) {
-            $member->setPriorityAttribute($member->getPriorityAttribute());
+            $member->setPriority($member->getPriority());
+            $member->setLowerPriority($member->getLowerPriority());
         }
         $members = $members->sortByDesc('priority');
         return view('members.index', compact('members'));

@@ -25,8 +25,6 @@ class CreateMemberRequest extends Request
     {
         return [
             'name' => 'required|unique:members',
-            'ep' => 'required|integer',
-            'gp' => 'required|integer',
         ];
     }
 }

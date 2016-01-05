@@ -11,7 +11,7 @@
         <tr>
             <td>{{ $member->getEp() }}</td>
             <td>{{ $member->getGearPoints() }}</td>
-            <td>{{ $member->getPriorityAttribute() }}</td>
+            <td>{{ $member->getPriority() }}</td>
         </tr>
     </table>
     @if ($member->loot())

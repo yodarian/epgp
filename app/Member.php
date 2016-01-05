@@ -51,7 +51,7 @@ class Member extends Model
         return $ep;
     }
 
-    public function getPriorityAttribute()
+    public function getPriority()
     {
         $ep = $this->getEp();
         $gp = $this->getGearPoints();
@@ -59,7 +59,7 @@ class Member extends Model
         return round($ep / $gp, 2);
     }
 
-    public function setPriorityAttribute($priority)
+    public function setPriority($priority)
     {
         $this->priority = $priority;
     }
@@ -70,9 +70,38 @@ class Member extends Model
         $loot = $this->loot->all();
 
         foreach ($loot as $item) {
-            $gp += $item->gear_points;
+            if ($item->item_lvl == '224') {
+                $gp += $item->gear_points;
+            }
         }
 
         return $gp > 0 ? $gp : 1;
+    }
+
+    public function getLowerGearPoints()
+    {
+        $gp = 0;
+        $loot = $this->loot->all();
+
+        foreach ($loot as $item) {
+            if ($item->item_lvl == '220') {
+                $gp += $item->gear_points;
+            }
+        }
+
+        return $gp > 0 ? $gp : 1;
+    }
+
+    public function getLowerPriority()
+    {
+        $ep = $this->getEp();
+        $gp = $this->getLowerGearPoints();
+
+        return round($ep / $gp, 2);
+    }
+
+    public function setLowerPriority($priority)
+    {
+        $this->lowerPriority = $priority;
     }
 }
