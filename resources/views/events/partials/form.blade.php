@@ -20,7 +20,7 @@
 </div>
 <div class="form-group">
     {!! Form::label('members', 'Members:') !!}
-    {!! Form::select('members[]', App\Member::getMembersForMultiselect() , $selectedMembers, array('multiple' => 'multiple', 'class' => 'form-control multiselect', 'name' => 'members[]')) !!}
+    {!! Form::select('members[]', App\Member::getMembersForMultiselect() , $selectedMembers, array('multiple' => 'multiple', 'class' => 'form-control multiselect input-lg', 'name' => 'members[]', 'style' => 'height:396px')) !!}
 </div>
 
 <div class="form-group">
