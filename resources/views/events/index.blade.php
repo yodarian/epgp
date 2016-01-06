@@ -14,6 +14,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Date</th>
                     <th>EP</th>
                     <th># Bosses</th>
                     <th># Firstkills</th>
@@ -28,6 +29,7 @@
             @foreach( $events as $event )
                 <tr>
                     <td><a href="{{ route('events.show', $event->id) }}">{{ $event->name }}</a></td>
+                    <td>{{ $event->date }}</td>
                     <td>{{ $event->ep }}</td>
                     <td>{{ $event->number_bosses }}</td>
                     <td>{{ $event->number_firstkills }}</td>

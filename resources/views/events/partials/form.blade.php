@@ -3,6 +3,11 @@
     {!! Form::text('name', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
+    {!! Form::label('date', 'Date:') !!}
+    <br>
+    {!! Form::input('date', 'date') !!}
+</div>
+<div class="form-group">
     {!! Form::label('number_bosses', 'Number of Bosses killed:') !!}
     {!! Form::text('number_bosses', null, ['class' => 'form-control']) !!}
 </div>

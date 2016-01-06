@@ -21,6 +21,7 @@ class CreateMemberAndEventTables extends Migration
         Schema::create('events', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->date('date');
             $table->integer('ep');
             $table->integer('number_bosses');
             $table->integer('number_firstkills');
