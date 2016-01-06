@@ -58,6 +58,14 @@ class LootMemberTableSeeder extends Seeder
             ['loot_id' => 16, 'member_id' => 11, 'awarded_at' => '2015-12-29', 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['loot_id' => 22, 'member_id' => 11, 'awarded_at' => '2015-12-29', 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['loot_id' => 18, 'member_id' => 1, 'awarded_at' => '2015-12-29', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 21, 'member_id' => 13, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 4, 'member_id' => 7, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 3, 'member_id' => 3, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 1, 'member_id' => 1, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 9, 'member_id' => 11, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 13, 'member_id' => 12, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 16, 'member_id' => 15, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['loot_id' => 15, 'member_id' => 2, 'awarded_at' => '2016-01-05', 'created_at' => new DateTime, 'updated_at' => new DateTime],
         );
 
         // Uncomment the below to run the seeder

@@ -22,6 +22,7 @@ class EventsTableSeeder extends Seeder
             ['id' => 5, 'name' => 'Schreckenspalast / Wüter HC', 'ep' => 1100, 'number_bosses' => 8, 'number_firstkills' => 0, 'time_spend' => 3.00, 'bonus_ep' => 0, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 6, 'name' => 'Schreckensfestung HC', 'ep' => 750, 'number_bosses' => 5, 'number_firstkills' => 0, 'time_spend' => 2.50, 'bonus_ep' => 0, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 7, 'name' => 'Schreckensfestung HC', 'ep' => 650, 'number_bosses' => 4, 'number_firstkills' => 0, 'time_spend' => 2.50, 'bonus_ep' => 0, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 8, 'name' => 'Tempel des Opfers HC', 'ep' => 800, 'number_bosses' => 4, 'number_firstkills' => 0, 'time_spend' => 3.00, 'bonus_ep' => 100, 'created_at' => new DateTime, 'updated_at' => new DateTime],
         );
 
         // Uncomment the below to run the seeder
