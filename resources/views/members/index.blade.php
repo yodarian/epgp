@@ -14,8 +14,8 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>EP</th>
-                    <th>GP</th>
+                    <th>Effort Points</th>
+                    <th>Gear Points</th>
                     <th>Priority</th>
                     <th></th>
                     <th></th>
@@ -41,8 +41,8 @@
             <thead>
             <tr>
                 <th>Name</th>
-                <th>EP</th>
-                <th>GP</th>
+                <th>Effort Points</th>
+                <th>Gear Points</th>
                 <th>Priority</th>
                 <th></th>
                 <th></th>

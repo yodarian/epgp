@@ -10,18 +10,21 @@
     @if ( !$events->count() )
         You have no events
     @else
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>EP</th>
-                <th># Bosses</th>
-                <th># Firstkills</th>
-                <th>Time Spend</th>
-                <th>Bonus EP</th>
-                <th>Member</th>
-                <th></th>
-                <th></th>
-            </tr>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>EP</th>
+                    <th># Bosses</th>
+                    <th># Firstkills</th>
+                    <th>Time Spend</th>
+                    <th>Bonus EP</th>
+                    <th>Member</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
             @foreach( $events as $event )
                 <tr>
                     <td><a href="{{ route('events.show', $event->id) }}">{{ $event->name }}</a></td>
@@ -35,6 +38,7 @@
                     <td></td>
                 </tr>
             @endforeach
+            </tbody>
         </table>
     @endif
 @endsection
