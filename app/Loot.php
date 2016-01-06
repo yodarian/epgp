@@ -21,13 +21,24 @@ class Loot extends Model
     }
 
     /**
-     * Get the names of all members associated with this event
+     * Get the names of all members associated with this item
      *
      * @return string
      */
     public function getMembersAsString()
     {
-        return implode(',', $this->members->lists('name')->all());
+        $memberStr = '';
+        $numberMembers = $this->members->count();
+        $i = 1;
+
+        foreach ($this->members as $member) {
+            $memberStr .= '<a href="' . route('members.show', $member->id) . '" data-toggle="tooltip" title="' . $member->pivot->awarded_at . '">' . $member->name . '</a>';
+            if ($i < $numberMembers) {
+                $memberStr .= ', ';
+                $i++;
+            }
+        }
+        return $memberStr;
     }
 
     /**
