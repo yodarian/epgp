@@ -1,7 +1,8 @@
 <html>
 <head>
-    <title>App Name - @yield('title')</title>
+    <title>SWTOR EPGP - @yield('title')</title>
     {!! HTML::style('css/bootstrap.min.css') !!}
+    {!! HTML::style('css/epgp.css') !!}
     {!! HTML::script('js/bootstrap.min.js') !!}
 </head>
 <body>
