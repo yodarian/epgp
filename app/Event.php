@@ -12,7 +12,8 @@ class Event extends Model
         'number_firstkills',
         'time_spend',
         'ep',
-        'bonus_ep'
+        'bonus_ep',
+        'date'
     ];
 
     /**
