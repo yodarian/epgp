@@ -24,6 +24,7 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 1, 'member_id' => 10, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 1, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 1, 'member_id' => 15, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
             ['event_id' => 2, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 2, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 2, 'member_id' => 3, 'created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -32,6 +33,7 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 2, 'member_id' => 7, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 2, 'member_id' => 8, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 2, 'member_id' => 9, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
             ['event_id' => 3, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 3, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 3, 'member_id' => 5, 'created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -40,6 +42,7 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 3, 'member_id' => 8, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 3, 'member_id' => 10, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 3, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
             ['event_id' => 4, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 4, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 4, 'member_id' => 7, 'created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -48,6 +51,9 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 4, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 4, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 4, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 4, 'member_id' => 5, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 4, 'member_id' => 6, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
             ['event_id' => 5, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 5, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 5, 'member_id' => 3, 'created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -56,6 +62,8 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 5, 'member_id' => 10, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 5, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 5, 'member_id' => 15, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 5, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
             ['event_id' => 6, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 6, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 6, 'member_id' => 4, 'created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -64,6 +72,7 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 6, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 6, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 6, 'member_id' => 15, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
             ['event_id' => 7, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 7, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 7, 'member_id' => 4, 'created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -72,6 +81,7 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 7, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 7, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 7, 'member_id' => 17, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
             ['event_id' => 8, 'member_id' => 15, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 8, 'member_id' => 3, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 8, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
@@ -80,6 +90,54 @@ class EventMemberTableSeeder extends Seeder
             ['event_id' => 8, 'member_id' => 11, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 8, 'member_id' => 7, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['event_id' => 8, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
+            ['event_id' => 9, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 9, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 9, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 9, 'member_id' => 3, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 9, 'member_id' => 10, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 9, 'member_id' => 11, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 9, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 9, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
+            ['event_id' => 10, 'member_id' => 15, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 8, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 7, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 5, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 3, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 10, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
+            ['event_id' => 11, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 11, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 11, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 11, 'member_id' => 8, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 11, 'member_id' => 7, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 11, 'member_id' => 3, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 11, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 11, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
+            ['event_id' => 12, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 12, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 12, 'member_id' => 3, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 12, 'member_id' => 6, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 12, 'member_id' => 7, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 12, 'member_id' => 10, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 12, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 12, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
+            ['event_id' => 13, 'member_id' => 1, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 2, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 5, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 7, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 8, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 9, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 12, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 13, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['event_id' => 13, 'member_id' => 14, 'created_at' => new DateTime, 'updated_at' => new DateTime],
         );
 
         // Uncomment the below to run the seeder

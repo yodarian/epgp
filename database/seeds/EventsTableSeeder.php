@@ -23,6 +23,11 @@ class EventsTableSeeder extends Seeder
             ['id' => 6, 'name' => 'Schreckensfestung HC', 'date' => '2015-12-29', 'ep' => 750, 'number_bosses' => 5, 'number_firstkills' => 0, 'time_spend' => 2.50, 'bonus_ep' => 0, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 7, 'name' => 'Schreckensfestung HC', 'date' => '2015-12-29', 'ep' => 650, 'number_bosses' => 4, 'number_firstkills' => 0, 'time_spend' => 2.50, 'bonus_ep' => 0, 'created_at' => new DateTime, 'updated_at' => new DateTime],
             ['id' => 8, 'name' => 'Tempel des Opfers HC', 'date' => '2016-01-05', 'ep' => 800, 'number_bosses' => 4, 'number_firstkills' => 0, 'time_spend' => 3.00, 'bonus_ep' => 100, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 9, 'name' => 'Tempel des Opfers HC', 'date' => '2016-01-07', 'ep' => 750, 'number_bosses' => 4, 'number_firstkills' => 0, 'time_spend' => 2.50, 'bonus_ep' => 100, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 10, 'name' => 'Ewige Kammer HC', 'date' => '2016-01-12', 'ep' => 650, 'number_bosses' => 5, 'number_firstkills' => 0, 'time_spend' => 1.50, 'bonus_ep' => 0, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 11, 'name' => 'Wüter HC', 'date' => '2016-01-12', 'ep' => 650, 'number_bosses' => 3, 'number_firstkills' => 0, 'time_spend' => 1.50, 'bonus_ep' => 200, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 12, 'name' => 'Wüter HC', 'date' => '2016-01-14', 'ep' => 500, 'number_bosses' => 0, 'number_firstkills' => 0, 'time_spend' => 2.50, 'bonus_ep' => 250, 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 13, 'name' => 'Abschaum & Verkommenheit HC', 'date' => '2016-01-19', 'ep' => 1100, 'number_bosses' => 8, 'number_firstkills' => 0, 'time_spend' => 3.00, 'bonus_ep' => 0, 'created_at' => new DateTime, 'updated_at' => new DateTime],
         );
 
         // Uncomment the below to run the seeder
